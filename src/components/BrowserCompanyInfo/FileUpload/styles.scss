@@ -1,0 +1,35 @@
+$primary-color: #007bff;
+$border-color: #ccc;
+.file-upload-container {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file-upload-content {
+  text-align: center;
+}
+
+.file-upload-content p {
+  margin: 0;
+}
+
+.file-upload-content.dragover {
+  background-color: #f0f0f0;
+}
+.clear-btn {
+  margin: 10px;
+  padding: 2px 16px;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  background-color: white;
+  cursor: pointer;
+
+  &:disabled {
+    background-color: $border-color;
+    cursor: not-allowed;
+  }
+}
