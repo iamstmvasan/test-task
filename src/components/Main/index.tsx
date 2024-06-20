@@ -1,4 +1,3 @@
-import React from 'react'
 import Stepper from '../Stepper';
 import BG from "./../../assets/bg3.png"
 import "./styles.scss"

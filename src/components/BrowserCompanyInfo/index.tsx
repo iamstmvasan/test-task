@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles.scss";
 import FileUpload from "./FileUpload";
 const BrowserCompanyInfo = () => {
@@ -34,7 +33,7 @@ const BrowserCompanyInfo = () => {
           <p className="field-name">Number of Unit's</p>
           <select className="field" name="fruits">
             <option value=""></option>
-            {propertyType.map((ele, index) => {
+            {propertyType.map((_ele, index) => {
               return (
                 <option key={index + 1} value={index + 1}>
                   {index + 1}
