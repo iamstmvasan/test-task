@@ -59,6 +59,7 @@ $border-color: #ccc;
   }
 
   .step-content {
+    overflow: auto;
     margin-top: 50px;
     padding: 10px;
     height: 70%;
@@ -72,7 +73,7 @@ $border-color: #ccc;
   }
 
   .step-buttons {
-    margin-top: 10px;
+    margin: 10px;
     text-align: right;
 
     button {
